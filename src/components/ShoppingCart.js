@@ -3,6 +3,7 @@ import React from 'react';
 // Components
 import Item from './ShoppingCartItem';
 
+
 const ShoppingCart = props => {
 	const getCartTotal = () => {
 		return props.cart.reduce((acc, value) => {
